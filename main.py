@@ -20,7 +20,7 @@ def get_text(path):
     # "with" statement in Python helps in resource management
     # that ensures you don't accidentally leave any resources
     # open. Here, we are using "with" statement to open the
-    # file that takes the path of a file as an argument.
+    # file that takes the path of a file as a parameter.
     with open(path) as f:
 
         # "f" is an instance, invoking read method to read
